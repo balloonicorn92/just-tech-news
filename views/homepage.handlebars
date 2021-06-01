@@ -1,7 +1,11 @@
-<ol class="post-list">
+
+<div class="rounded border d-flex align-items-center flex-column mt-3" style="background: rgba(180, 180, 180, 0.5)">
+  <ol class="post-list">
   {{#each posts as |post|}}
   <li>
   {{> post-info post}} 
   </li>
   {{/each}}
 </ol>
+</div>
+<script src="/javascript/login.js"></script>
